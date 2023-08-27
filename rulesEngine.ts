@@ -1,6 +1,6 @@
-import { IEngine } from "./engine";
-import { IMobile } from "./mobile";
-import { IUnit } from "./unit";
+import { IEngine } from "./engineMain";
+import { IMobile } from "./engineMobile";
+import { IUnit } from "./engineUnit";
 
 export class RulesEngine<IN> {
   executeRules(input: IN, aIEngines: IEngine<IN>[]): IN {

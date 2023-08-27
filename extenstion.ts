@@ -1,5 +1,5 @@
 import { Context } from "./context";
-import { IMobile } from "./mobile";
+import { IMobile } from "./engineMobile";
 
 export class Extension implements IMobile<Context> {
   execute(aCommand: Context): Context {
