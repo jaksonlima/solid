@@ -9,6 +9,11 @@ D — Dependency Inversion Principle (Princípio da inversão da dependência)
 ```
 
 ### Rules Engine Start
+
+```
+npm install -g ts-node
+```
+
 ```
 yarn start
 ```
