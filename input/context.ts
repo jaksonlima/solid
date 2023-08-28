@@ -1,4 +1,4 @@
-export class Context {
+export class InputContext {
   #name: string;
 
   constructor(name: string) {
